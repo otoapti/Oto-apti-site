@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Oto Apti | Gelibolu Oto Bakım</title>
+
+<meta name="description" content="Oto Apti - Gelibolu Çanakkale'de pasta cila, yağ değişimi, oto aksesuar ve araç bakım hizmetleri.">
+<meta name="keywords" content="oto bakım, gelibolu oto servis, pasta cila, yağ değişimi, oto aksesuar">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+scroll-behavior:smooth;
+}
+
+header{
+background:red;
+padding:15px;
+text-align:center;
+font-weight:bold;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') center/cover;
+}
+
+.hero h1{
+background:rgba(0,0,0,0.6);
+padding:10px 20px;
+}
+
+.hero p{
+background:red;
+padding:8px 15px;
+margin-top:10px;
+}
+
+section{
+padding:50px 20px;
+}
+
+h2{
+color:red;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:10px;
+}
+
+.card{
+background:#111;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+img{
+width:100%;
+border-radius:10px;
+}
+
+.contact{
+background:#111;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+a{
+color:red;
+text-decoration:none;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+background:red;
+color:white;
+padding:10px;
+border-radius:5px;
+}
+
+iframe{
+width:100%;
+height:250px;
+border:0;
+border-radius:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>OTO APTİ</header>
+
+<div class="hero">
+<h1>OTO APTİ</h1>
+<p>Gelibolu / Çanakkale Oto Bakım Servisi</p>
+</div>
+
+<section>
+<h2>Hizmetler</h2>
+
+<div class="grid">
+<div class="card">Pasta Cila</div>
+<div class="card">Koltuk Kılıfı</div>
+<div class="card">Direksiyon Kılıfı</div>
+<div class="card">Yağ Değişimi</div>
+<div class="card">Far Temizliği</div>
+</div>
+</section>
+
+<section>
+<h2>Çalışmalar</h2>
+
+<div class="grid">
+<img src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52">
+<img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04">
+<img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a">
+<img src="https://images.unsplash.com/photo-1625047509046-2b7c6b8d1f2d">
+</div>
+</section>
+
+<section>
+<h2>Hakkımızda</h2>
+
+<div class="card">
+Oto Apti olarak Gelibolu / Çanakkale’de profesyonel oto bakım hizmeti veriyoruz.  
+Kaliteli işçilik ve müşteri memnuniyeti bizim önceliğimizdir.
+</div>
+
+</section>
+
+<section>
+<h2>İletişim</h2>
+
+<div class="contact">
+
+📞 0543 810 52 44 <br>
+📸 @oto_apti <br>
+📍 Gelibolu / Çanakkale
+
+<br>
+
+<a class="btn" href="tel:05438105244">Ara</a>
+<a class="btn" href="https://wa.me/905438105244">WhatsApp</a>
+
+</div>
+
+</section>
+
+<section>
+<h2>Konum</h2>
+
+<iframe 
+src="https://www.google.com/maps?q=40.4085461,26.6574961&output=embed">
+</iframe>
+
+<a class="btn" href="https://www.google.com/maps?q=40.4085461,26.6574961" target="_blank">
+Yol Tarifi
+</a>
+
+</section>
+
+</body>
+</html>
